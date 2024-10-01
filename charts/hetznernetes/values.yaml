@@ -1,12 +1,12 @@
 ---
-# -- Provide a name in place of `kubernetes-cluster-chart`
+# -- Provide a name in place of `hetznernetes`
 nameOverride: ""
 
-# -- String to fully override `"kubernetes-cluster-chart.fullname"`
+# -- String to fully override `"hetznernetes.fullname"`
 fullnameOverride: ""
 
 cluster:
-  # -- Define the name of the cluster. If not set, `"kubernetes-cluster-chart.fullname"` will be used.
+  # -- Define the name of the cluster. If not set, `"hetznernetes.fullname"` will be used.
   name: ""
 
 containerd:
@@ -32,12 +32,12 @@ hetzner:
   # -- contains the name of the HCloud location where all components (VMs, LoadBalancer) will be running. Valid values: fsn1, hel1, nbg1, ash, hil.
   region: "nbg1"
   sshKeys:
-    # -- Defines the SSH keys used for hcloud.
     # example
     # hcloud:
     #   - name: christian.huth@cloud37.io
     #   - name: florian.wartner@cloud37.io
     #   - name: kenneth@kenneth-cloud37-hp
+    # -- Defines the SSH keys used for hcloud.
     hcloud: []
   workerPlane:
     # -- image that should be used to install the control plane
