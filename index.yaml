@@ -1,6 +1,28 @@
 apiVersion: v1
 entries:
   hetznernetes:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: information to Chart.yaml
+    apiVersion: v2
+    created: "2024-10-01T12:13:33.833147638Z"
+    description: A Helm Chart for running a Cluster API based Kubernetes Cluster on
+      Hetzner.
+    digest: f1406ae5f166670743289dece09ec61010b4dc18f9083969169499fcecc5eae8
+    home: https://github.com/cloud37/helm-charts
+    icon: https://github.com/cloud37/helm-charts/blob/5e40a4772cc8c02976731a857ffdf82f81cea2dc/charts/hetznernetes/hetznernetes.png
+    maintainers:
+    - email: christian.huth@cloud37.io
+      name: christianhuth
+    name: hetznernetes
+    sources:
+    - https://cluster-api.sigs.k8s.io
+    - https://cluster-api-operator.sigs.k8s.io
+    - https://github.com/syself/cluster-api-provider-hetzner
+    urls:
+    - https://github.com/cloud37/helm-charts/releases/download/hetznernetes-1.0.1/hetznernetes-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     created: "2024-10-01T10:31:32.436891487Z"
     description: A Helm Chart for running a Cluster API based Kubernetes Cluster on
@@ -10,4 +32,4 @@ entries:
     urls:
     - https://github.com/cloud37/helm-charts/releases/download/hetznernetes-1.0.0/hetznernetes-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-01T10:31:32.436896145Z"
+generated: "2024-10-01T12:13:33.833159591Z"
