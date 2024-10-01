@@ -4,6 +4,31 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: signing key
+      artifacthub.io/signKey: |
+        fingerprint: C777DAD1E0A3BA4A9C593AAB9D6978451B6D1068
+        url: https://cloud37.github.io/helm-charts/public.key
+    apiVersion: v2
+    created: "2024-10-01T12:22:19.739730418Z"
+    description: A Helm Chart for running a Cluster API based Kubernetes Cluster on
+      Hetzner.
+    digest: 2b190f85eb14cd8934b151f0d8608c995d5beb0b35f840011738a5a5c8bab5b4
+    home: https://github.com/cloud37/helm-charts
+    icon: https://github.com/cloud37/helm-charts/blob/5e40a4772cc8c02976731a857ffdf82f81cea2dc/charts/hetznernetes/hetznernetes.png
+    maintainers:
+    - email: christian.huth@cloud37.io
+      name: christianhuth
+    name: hetznernetes
+    sources:
+    - https://cluster-api.sigs.k8s.io
+    - https://cluster-api-operator.sigs.k8s.io
+    - https://github.com/syself/cluster-api-provider-hetzner
+    urls:
+    - https://github.com/cloud37/helm-charts/releases/download/hetznernetes-1.0.2/hetznernetes-1.0.2.tgz
+    version: 1.0.2
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: information to Chart.yaml
     apiVersion: v2
     created: "2024-10-01T12:13:33.833147638Z"
@@ -32,4 +57,4 @@ entries:
     urls:
     - https://github.com/cloud37/helm-charts/releases/download/hetznernetes-1.0.0/hetznernetes-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-01T12:13:33.833159591Z"
+generated: "2024-10-01T12:22:19.739745235Z"
