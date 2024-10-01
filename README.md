@@ -12,7 +12,7 @@ These charts are provided as-is with no warranties.
 Once Helm is set up properly, add the repo as follows:
 
 ```shell
-helm repo add cloud37 https://charts.cloud37.io
+helm repo add cloud37 https://cloud37.github.io/helm-charts
 helm repo update
 ```
 
