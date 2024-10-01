@@ -1,5 +1,15 @@
 apiVersion: v1
 entries:
+  hetznernetes:
+  - apiVersion: v2
+    created: "2024-10-01T10:31:32.436891487Z"
+    description: A Helm Chart for running a Cluster API based Kubernetes Cluster on
+      Hetzner.
+    digest: c62aca7fba66974a37f3ae232498a98744e80e00c01341a2013f5b7732055c6c
+    name: hetznernetes
+    urls:
+    - https://github.com/cloud37/helm-charts/releases/download/hetznernetes-1.0.0/hetznernetes-1.0.0.tgz
+    version: 1.0.0
   kubernetes-cluster-chart:
   - apiVersion: v2
     created: "2024-10-01T09:42:42.62259932Z"
@@ -8,4 +18,4 @@ entries:
     urls:
     - https://github.com/cloud37/helm-charts/releases/download/kubernetes-cluster-chart-1.0.1/kubernetes-cluster-chart-1.0.1.tgz
     version: 1.0.1
-generated: "2024-10-01T09:42:42.622608998Z"
+generated: "2024-10-01T10:31:32.436896145Z"
