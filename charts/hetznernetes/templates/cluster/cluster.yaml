@@ -2,7 +2,7 @@
 apiVersion: cluster.x-k8s.io/v1beta1
 kind: Cluster
 metadata:
-  name: {{ include "kubernetes-cluster-chart.cluster.name" . }}
+  name: {{ include "hetznernetes.cluster.name" . }}
   namespace: {{ .Release.Namespace }}
 spec:
   clusterNetwork:
@@ -12,8 +12,8 @@ spec:
   controlPlaneRef:
     apiVersion: controlplane.cluster.x-k8s.io/v1beta1
     kind: KubeadmControlPlane
-    name: {{ include "kubernetes-cluster-chart.control-plane.name" . }}
+    name: {{ include "hetznernetes.control-plane.name" . }}
   infrastructureRef:
     apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
     kind: HetznerCluster
-    name: {{ include "kubernetes-cluster-chart.cluster.name" . }}
+    name: {{ include "hetznernetes.cluster.name" . }}

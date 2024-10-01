@@ -2,19 +2,19 @@
 apiVersion: cluster.x-k8s.io/v1beta1
 kind: MachineHealthCheck
 metadata:
-  name: {{ include "kubernetes-cluster-chart.worker-plane.name" . }}
+  name: {{ include "hetznernetes.worker-plane.name" . }}
   namespace: {{ .Release.Namespace }}
 spec:
-  clusterName: {{ include "kubernetes-cluster-chart.cluster.name" . }}
+  clusterName: {{ include "hetznernetes.cluster.name" . }}
   maxUnhealthy: 100%
   nodeStartupTimeout: 10m
   remediationTemplate:
     apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
     kind: HCloudRemediationTemplate
-    name: {{ include "kubernetes-cluster-chart.worker-plane.name" . }}
+    name: {{ include "hetznernetes.worker-plane.name" . }}
   selector:
     matchLabels:
-      nodepool: {{ include "kubernetes-cluster-chart.worker-plane.name" . }}
+      nodepool: {{ include "hetznernetes.worker-plane.name" . }}
   unhealthyConditions:
     - status: Unknown
       timeout: 180s
