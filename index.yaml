@@ -1,0 +1,11 @@
+apiVersion: v1
+entries:
+  kubernetes-cluster-chart:
+  - apiVersion: v2
+    created: "2024-10-01T09:42:42.62259932Z"
+    digest: c6b1d2c7e54976d89901357e8d5686a57dfb939014322175faf8a7c4f7d1507c
+    name: kubernetes-cluster-chart
+    urls:
+    - https://github.com/cloud37/helm-charts/releases/download/kubernetes-cluster-chart-1.0.1/kubernetes-cluster-chart-1.0.1.tgz
+    version: 1.0.1
+generated: "2024-10-01T09:42:42.622608998Z"
