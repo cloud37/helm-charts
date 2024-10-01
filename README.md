@@ -1,7 +1,7 @@
 # Kubernetes Helm Charts
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/christianhuth)](https://artifacthub.io/packages/search?repo=christianhuth)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/cloud37)](https://artifacthub.io/packages/search?repo=cloud37)
 
 These charts are provided as-is with no warranties.
 
