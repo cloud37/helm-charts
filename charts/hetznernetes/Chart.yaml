@@ -1,4 +1,5 @@
 ---
 apiVersion: v2
-name: kubernetes-cluster-chart
-version: 1.0.1
+name: hetznernetes
+description: A Helm Chart for running a Cluster API based Kubernetes Cluster on Hetzner.
+version: 1.0.0
