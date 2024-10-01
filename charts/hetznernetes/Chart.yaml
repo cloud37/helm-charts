@@ -2,4 +2,17 @@
 apiVersion: v2
 name: hetznernetes
 description: A Helm Chart for running a Cluster API based Kubernetes Cluster on Hetzner.
-version: 1.0.0
+version: 1.0.1
+home: https://github.com/cloud37/helm-charts
+icon: https://github.com/cloud37/helm-charts/blob/5e40a4772cc8c02976731a857ffdf82f81cea2dc/charts/hetznernetes/hetznernetes.png
+maintainers:
+  - name: christianhuth
+    email: christian.huth@cloud37.io
+sources:
+  - https://cluster-api.sigs.k8s.io
+  - https://cluster-api-operator.sigs.k8s.io
+  - https://github.com/syself/cluster-api-provider-hetzner
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: information to Chart.yaml
