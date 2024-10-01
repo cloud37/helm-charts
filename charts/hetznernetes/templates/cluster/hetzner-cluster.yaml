@@ -25,8 +25,8 @@ spec:
     key:
       hcloudToken: token
     name: hcloud
+  {{- if .Values.hetzner.sshKeys.hcloud }}
   sshKeys:
     hcloud:
-      - name: christian.huth@cloud37.io
-      - name: florian.wartner@cloud37.io
-      - name: kenneth@kenneth-cloud37-hp
+      {{- .Values.hetzner.sshKeys.hcloud | toYaml | nindent 6 }}
+  {{- end }}
